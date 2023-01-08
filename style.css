@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.header{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    margin-left: 50px;  
+}
+
+.logo img{
+    width: 92px;
+    height: 30px;
+    margin-top: 30px;
+    
+}
+
+.searchbox{
+    width: 270%;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(57, 52, 52, 0.4);
+    border: none;
+    outline: none;
+}
+
+.name{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    top: 30px;
+    left: 195px;
+}
+
+.cancel{
+    position: absolute;
+    top: 30px;
+    left: 610px;
+}
+
+.line1{
+    display: inline;
+    width: 22px;
+}
+
+.line{
+    position: absolute;
+    top: 30px;
+    left: 635px;
+}
+
+.icon1{
+    position: absolute;
+    width: 3%;
+    background: none;
+    top: 30px;
+    left: 640px;
+    cursor: pointer;
+}
+
+.icon2{
+    position: absolute;
+    width: 32px;
+    background: none;
+    top: 24px;
+    left: 675px;
+    cursor: pointer;
+
+}
+
+.icon3{
+    position: absolute;
+    width: 17px;
+    background: none;
+    top: 32px;
+    left: 720px;
+    cursor: pointer;
+}
+
+.icon4{
+    position: absolute;
+    width: 25px;
+    background: none;
+    top: 32px;
+    right: 140px;
+    cursor: pointer;
+}
+
+.icon5{
+    position: absolute;
+    width: 25px;
+    background: none;
+    top: 32px;
+    right: 90px;
+    cursor: pointer;
+}
+
+.user{
+    background-color: rosybrown;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    /* justify-items: center; */
+    padding: 20px;
+    border-radius: 20px;
+    /* text-align: center; */
+    top: 28px;
+    right: 32px;
+}
+
+.user p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    bottom: 10px;
+    right: 7px;
+}
+
+.result-sections{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 35px;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.icon-all{
+    /* position: absolute; */
+    width: 10px;
+    cursor: pointer;
+}
+
+.result-sections p{
+    color: #202124;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.div-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#70757A;
+}
+
+.about{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.overview{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.mp{
+    width: 4%;
+    border-radius: 15px;
+}
+
+.footballer{
+    margin-left: 32px;
+}
+
+.fb1{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.fb2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.buttons{
+    margin-top: 5px;
+}
+
+.button1{
+    margin-left: 27px;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 15px 30px;
+    border-radius: 55px;
+    border: 1px solid black; 
+}
+
+.button2{
+    margin-left: 8px;
+    padding: 15px 30px;
+    border-radius: 55px;
+    border: none;
+    cursor: pointer;
+}
+
+.button3{
+    margin-left: 8px;
+    padding: 15px 30px;
+    border-radius: 55px;
+    border: none;
+    cursor: pointer;
+}
+
+.button4{
+    margin-left: 8px;
+    padding: 15px 30px;
+    border-radius: 55px;
+    border: none;
+    cursor: pointer;
+}
+
+.section3{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 30px;
+    /* padding-left: 50px; */
+    padding-bottom: 30px;
+    border: 1px solid rgb(140, 136, 136);
+    margin-top: 15px;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 20px;
+}
+
+.left-col{
+    padding-left: 50px;
+}
+
+.four-pic{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.top{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.small-wrapper{
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+.left-col2{
+    padding-right:5px;
+}
+
+.news1{
+    display: flex;
+    margin: 15px 0;
+}
+
+.logo12{
+    border-radius: 10px;
+    height: 90px;
+}
+
+.st1{
+    margin: 7px 0;
+    margin-right: 1px;
+}
+.hright{
+    /* background-color: aqua; */
+    height: 93%;
+    margin-top: 15px;
+}
+
+.right-col2{
+    display: flex;
+}
+
+.rightb{
+    margin-left: 7px;
+}
